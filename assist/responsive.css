@@ -1,0 +1,67 @@
+@media screen and (min-width:1200px){
+    .left-column .search-box input{
+        width: 425px;
+    }
+    .main-column .left-column .text-sec{
+        font-size: 35px;
+    }
+    .left-column .text-sec hr{
+        width: 244px;
+    }
+}
+
+@media screen and (max-width:1150px){
+    
+    .left-column .search-box input{
+        width: 226px;
+
+    }
+    .main-column .left-column .text-sec{
+        font-size: 27px;
+    }
+    .left-column .text-sec hr{
+        width: 191px;
+    }
+    .main-column .right-column .output{
+        margin-left: 10px;
+    }
+
+}
+@media screen and (max-width:780px){
+    body{
+        background-color: red;
+    }
+    .main-column{
+        display: grid;
+    }
+    .main-column .left-column{
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+        margin-bottom: 10px;
+        padding-bottom: 87px;
+    }
+    .main-column .left-column .text-sec{
+        margin-top: 127px;
+    }
+    .main-column .right-column{
+        width: 100%;
+        border-radius: 0px 0px 5px 5px;
+    }
+}
+@media screen and (max-width:780px){
+    .left-column .search-box input{
+        width: 100px;
+    }
+    .main-column .left-column .text-sec{
+        font-size: 20px;
+    }
+    .left-column .text-sec hr{
+        width: 150px;
+    }
+    .left-column .search-box button{
+        width: 50px;
+    }
+    .left-column .search-box input::placeholder{
+        font-size: 15px;
+    }
+}

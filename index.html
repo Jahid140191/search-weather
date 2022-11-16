@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="assist/style.css">
+    <link rel="stylesheet" href="assist/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,500;1,700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+    <div class="container">
+        <div class="main-column">
+            <div class="left-column">
+
+                <div class="text-sec">
+                    <h2>Weather :</h2>
+                    <hr>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Search City" id="inputCity">
+                    <button onclick="getResult()"><i class="fa fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+            <div class="right-column">
+                <u><h2>Temperature:</h2></u>
+                <div class="output">
+                        <p>City-Name: <span id="cityName"></span></p><br>
+                        <p>Temperature: <span id="temp"></span></p><br>
+                        <p>Max-Temp: <span id="maxTemp"></span></p><br>
+                        <p>Min-Temp: <span id="minTemp"></span></p><br>
+                </div>
+            </div>
+          </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/e33afd2411.js" crossorigin="anonymous"></script>
+    <script src="assist/weather.js"></script>
+</body>
+</html>
